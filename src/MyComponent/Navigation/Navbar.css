@@ -1,0 +1,84 @@
+.navbar{
+    display: flex;
+    font-family: sans-serif;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #08131D;
+    color: #f4bc1c;
+    position: fixed;
+    width: 100%;
+}
+
+/* Nav__Logo */
+.nav__logo{
+    display: flex;
+    padding: 3px 2px;
+}
+.nav__logoIcon{
+    color: #f4bc1c;
+}
+.nav__logoHeading{
+    font-size: 2rem;
+    margin: 1px .5rem;
+    color: white;
+}
+
+
+/* Nav__Search */
+.nav__search{
+    display: flex;
+    border-radius: 3px;
+    width: 70%;
+}
+
+.nav__searchInput{
+    padding: 0 1rem;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.nav__searchIcon{
+    background: #f4bc1c;
+    color: black;
+    /* font-weight: 3rem; */
+}
+
+
+/* Nav__Navigation */
+.nav__navigation{
+    display: flex;
+    justify-content: space-between;
+    /* width: 20%; */
+    padding: 0 3rem;
+}
+.nav__navigationSignin, .nav__navigationShop{
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem;
+}
+
+.nav__child-1{
+    font-weight: bold;
+}
+.nav__child-2{
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+/* Navigation */
+.nav__navigationCart{
+    display: flex;
+    padding-top: 3px;
+}
+
+.nav__basketIcon{
+}
+
+.nav__count{
+    font-size: 2rem;
+    margin: 2px 3px;
+    color: white;
+}
+

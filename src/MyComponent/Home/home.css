@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@600;900&family=Space+Mono:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+/* Header */
+.header {
+  display: flex;
+  width: 100wv;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Sofia Sans", sans-serif;
+}
+.header__heading {
+  font-size: 10rem;
+  font-weight: bold;
+  color: #0d1d2d;
+}
+.header span {
+  color: #ffc422;
+  display: block;
+}
+.header p span {
+  display: inline-block;
+  text-decoration: underline;
+}
+.header p {
+  font-size: 2.5rem;
+  padding: 0 5px;
+}
+.header__image {
+  height: 70rem;
+}
+
+/* Product */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 3rem;
+  background-color: whitesmoke;
+}
+
+.product__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 1rem;
+  width: 50rem;
+  background: white;
+}
+
+.product__description {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.product__heading {
+  width: 60%;
+}
+.product__price {
+  font-weight: bold;
+  font-size: 2rem;
+  display: block;
+}
+
+.product__image {
+  height: 20rem;
+}
+
+.product__button {
+  border: none;
+  background: #ffc422;
+  padding: 1.5rem 2rem;
+  border-radius: 3px;
+  margin: 2rem 0;
+  font-weight: bold;
+  cursor: pointer;
+  border: 3px solid transparent;
+}
+.product__button:hover {
+  border: 3px solid #ffc422;
+  background-color: transparent;
+}
